@@ -66,8 +66,6 @@ namespace Receiver2RichPresence
 
 			Instance = this;
 
-			Assembly.LoadFrom(Path.Combine(Path.GetDirectoryName(this.Info.Location), "DiscordGameSDK.dll")); //probably good to do this
-
 			Discord = new Discord.Discord(CLIENT_ID, (ulong)global::Discord.CreateFlags.NoRequireDiscord);
 
 			Harmony = new Harmony(HARMONY_INSTANCE_ID);
@@ -92,7 +90,7 @@ namespace Receiver2RichPresence
 					previousActivity = currentActivity;
 					Discord.GetActivityManager().UpdateActivity(currentActivity, RunActivityCallback);
 				}
-				yield return new WaitForSecondsRealtime(3f);
+				yield return new WaitForSecondsRealtime(5f); //5 seems like the minimum, otherwise sometimes it just gets eaten or some shittt
 			}
 		}
 
