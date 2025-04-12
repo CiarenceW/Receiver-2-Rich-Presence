@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3101325012990676767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3570c76eb7a5c3c45942d9295a150917, type: 3}
+  m_Name: StageManifestFiles
+  m_EditorClassIdentifier: 
+  Active: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3695521163bdd74fa2845bbd3438240, type: 3}
+  m_Name: Receiver2RichPresencePipeline
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 5179027648267790191}
+  - {fileID: 3460784533714117461}
+  - {fileID: -3101325012990676767}
+  - {fileID: 3173800220325549748}
+  QuickAccess: 0
+  manifest: {fileID: 11400000, guid: 592c1151dd772684989508b4ecb56554, type: 2}
+--- !u!114 &3173800220325549748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f65d4371163fb4695da79ab8df0e84, type: 3}
+  m_Name: ExecuteProcess
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  workingDirectory: F:\Steam
+  executable: steam.exe
+  arguments:
+  - -applaunch 1129310
+  - --doorstop-enable true
+  - '--doorstop-target "C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\core\BepInEx.Preloader.dll" '
+--- !u!114 &3460784533714117461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03063c7a6ec04cc4c82c75cf9bcc8db8, type: 3}
+  m_Name: Copy
+  m_EditorClassIdentifier: 
+  Active: 1
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  ReplaceDirectory: 0
+  Recursive: 0
+  SourceRequired: 1
+  EstablishDestination: 1
+  Source: <DiscordGameSDKNativeDllPath>
+  Destination: C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\Receiver2RichPresenceTeam-Receiver2RichPresence/discord_game_sdk.dll
+--- !u!114 &5179027648267790191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b20fac9c71fd64183cb7a8f359d73a, type: 3}
+  m_Name: StageAssemblies
+  m_EditorClassIdentifier: 
+  Active: 1
+  stageDebugDatabases: 0
+  releaseBuild: 1
+  assemblyArtifactPath: <AssemblyStaging>
+  buildTarget: 5

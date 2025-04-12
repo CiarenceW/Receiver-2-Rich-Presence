@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4641978989297244465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\Receiver2RichPresenceTeam-Receiver2RichPresence
+  definitions:
+  - {fileID: 5897886265953266890, guid: 6bb86c08898e99841b4832caa71d7260, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: Receiver2RichPresenceManifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 3115741406199045308}
+  - {fileID: 4607536823646524100}
+  - {fileID: -4641978989297244465}
+  identity: {fileID: 3115741406199045308}
+  QuickAccess: 0
+--- !u!114 &3115741406199045308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: Receiver 2 Rich Presence Team
+  Name: Receiver 2 Rich Presence
+  Description: Discord Rich Presence plugin mod thing for Receiver 2
+  Version: 1.0.0
+  Dependencies:
+  - {fileID: 11400000, guid: ac948e712e82b4342afad8444c5eaacd, type: 2}
+--- !u!114 &4607536823646524100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\Receiver2RichPresenceTeam-Receiver2RichPresence
+  definitions:
+  - {fileID: 5897886265953266890, guid: 2cbe7368f83053a4eb0078a0450f0e89, type: 3}

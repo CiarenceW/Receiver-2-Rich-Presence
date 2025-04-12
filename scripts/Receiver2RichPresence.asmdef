@@ -1,0 +1,20 @@
+{
+    "name": "Receiver2RichPresence",
+    "references": [
+        "GUID:041edb9e43e1cd140a16ecbcf83eaffa",
+        "GUID:6bb86c08898e99841b4832caa71d7260"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "0Harmony.dll",
+        "BepInEx.dll",
+        "Wolfire.Receiver2.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
