@@ -92,7 +92,7 @@ namespace Receiver2RichPresence
 					previousActivity = currentActivity;
 					Discord.GetActivityManager().UpdateActivity(currentActivity, RunActivityCallback);
 				}
-				yield return new WaitForSecondsRealtime(2f);
+				yield return new WaitForSecondsRealtime(3f);
 			}
 		}
 
